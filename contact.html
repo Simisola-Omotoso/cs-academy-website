@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CS Academy</title>
+        <link rel="stylesheet" href="project.css" />
+    </head>
+    <body>
+        <div class="header">
+            <img src="cs-academy-logo.png" alt="CS Academy Logo" class="logo" />
+            <h1 class="title">CS Academy</h1>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="topics.html">Topics</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="contact">
+            <h2>Have a Question</h2>
+            <p>Fill out our form below for specific questions, bugs, or content errors.</p>
+        </div>
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <br>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br /><br />
+            <input type="submit" value="Submit" />
+            <br>
+            <br>
+        </form>
+        <br>
+    </body>
+    <footer>
+        <h1 class="second-title">CS Academy</h1>
+        <div class="links">
+            <ul class="link-column">
+                <li><a href="software-engineering.html">Software Engineering</a></li>
+                <li><a href="data-science.html">Data Science</a></li>
+                <li><a href="ai.html">AI</a></li>
+                <li><a href="cybersecurity.html">Cybersecurity</a></li>
+            </ul>
+            <ul class="link-column">
+                <li><a href="computer-networking.html">Computer Networking</a></li>
+                <li><a href="database-administration.html">Database Administration</a></li>
+                <li><a href="cloud-computing.html">Cloud Computing</a></li>
+                <li><a href="game-development.html">Game Development</a></li>
+            </ul>
+            <ul class="link-column">
+                <li><a href="robotics.html">Robotics</a></li>
+                <li><a href="ui-ux.html">UI/UX</a></li>
+                <li><a href="research.html">Research</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2025 CS Academy. All rights reserved.</p>
+    </footer>
+</html>
