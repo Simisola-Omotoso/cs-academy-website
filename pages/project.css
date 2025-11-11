@@ -60,7 +60,6 @@ nav {
     flex-wrap: wrap;
     gap: 20px;
     padding: 10px;
-    
 }
 
 .course-gallery img {
@@ -117,6 +116,10 @@ table {
     border-spacing: 10px;
 }
 
+th {
+    font-size: 18px;
+}
+
 .course-images {
     width: 60%;
     height: 50%
@@ -128,6 +131,7 @@ table {
 
 summary {
     font-size: 16px;
+    font-weight: bold;
 }
 
 /* Form */
