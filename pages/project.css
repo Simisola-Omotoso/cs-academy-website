@@ -120,7 +120,6 @@ table {
 .course-images {
     width: 60%;
     height: 50%
-    object-fit;
 }
 
 .topic {
