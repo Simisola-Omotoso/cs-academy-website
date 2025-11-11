@@ -126,6 +126,10 @@ table {
     justify-content: center;
 }
 
+summary {
+    font-size: 16px;
+}
+
 /* Form */
 
 form {
