@@ -6,6 +6,22 @@
         <meta name="description" content="For questions and concerns, contact us through this page and fill out our form.">
         <title>CS Academy</title>
         <link rel="stylesheet" href="project.css" />
+        <script>
+            function validateForm() {
+                if (document.forms[0].name.value == "") {
+                    alert("Name field must be filled.");
+                    return false;
+                } else if (document.forms[0].email.value == "") {
+                    alert("Email field must be filled.");
+                    return false;
+                } else if (document.forms[0].message.value == "") {
+                    alert("Message field must be filled.");
+                    return false;
+                }
+                alert("Fields are all validated.");
+                return true;
+            }
+        </script>
     </head>
     <body>
         <div class="header">
@@ -25,7 +41,7 @@
             <h2>Have a Question</h2>
             <p>Fill out our form below for specific questions, bugs, or content errors.</p>
         </div>
-        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php" onsubmit="return validateForm();">
             <br>
             <label for="name">Name:</label><br />
             <input type="text" id="name" name="name" required /><br /><br />
