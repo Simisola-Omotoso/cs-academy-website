@@ -52,6 +52,8 @@ nav {
 
 .hero {
     background-image: url("../images/blockchain.jpg");
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .course-gallery {
