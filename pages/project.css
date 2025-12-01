@@ -12,11 +12,12 @@
 
 .logo {
     z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 .title {
     padding-top: 20px;
-    position: absolute;
     left: 50%;
     text-align: center;
     transform: translateX(-50%);
