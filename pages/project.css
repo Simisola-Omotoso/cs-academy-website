@@ -5,13 +5,14 @@
 /* Header */
 
 .header {
-    display: flex;
-    align-items: center;
     position: relative;
 }
 
 .logo {
     z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .title {
@@ -19,6 +20,7 @@
     position: absolute;
     left: 50%;
     text-align: center;
+    transform: translateX(-50%);
 }
 
 nav {
