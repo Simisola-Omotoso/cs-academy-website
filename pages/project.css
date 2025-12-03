@@ -48,6 +48,23 @@ nav {
     flex: 1;
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    list-style: none;
+}
+
+.dropdown-menu li a {
+    display: block;
+}
+
 /* Main Content */
 
 .hero {
