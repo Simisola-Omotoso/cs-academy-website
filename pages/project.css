@@ -65,6 +65,10 @@ nav {
     display: block;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 /* Main Content */
 
 .hero {
